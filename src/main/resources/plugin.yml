@@ -1,0 +1,11 @@
+name: FakePlayer
+version: ${project.version}
+main: hu.dysaido.fakeplayer.FakePlayer
+api-version: 1.16
+load: STARTUP
+authors: [ Dysaido ]
+
+commands:
+  fakeplayer:
+    usage: /fakeplayer [name]
+    aliases: [fplayer, fakep, fp]
